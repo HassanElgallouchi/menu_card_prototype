@@ -57,9 +57,9 @@ ContentManager.prototype.ratingAverage = function (ratings) {
 
 // Ici on instancie un objet ContentManager en fesant appel a sa methode constructice
 let contentManager = new ContentManager([
-    { title: "A Taste of the Kitchen", subtitle: "Served Family Style", resume: "Vel nam odio dolorem, voluptas sequi minus quo tempore, animi est quia earum maxime. Reiciendisquae repellat, modi non, veniam.", img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/first-course.jpg", ratings: [5, 3, 5, 4, 5, 3, 4, 5] },
-    { title: "Rustic Reds", subtitle: "From the land of Italy", resume: "Vel nam odio dolorem, voluptas sequi minus quo tempore, animi est quia earum maxime. Reiciendisquae repellat, modi non, veniam.", img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/second-course.jpg", ratings: [2, 3, 1, 4, 2, 3, 4, 5] },
-    { title: "Delicious Desserts", subtitle: "Seasonal Ingredients", resume: "Vel nam odio dolorem, voluptas sequi minus quo tempore, animi est quia earum maxime. Reiciendisquae repellat, modi non, veniam.", img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/third-course.jpg", ratings: [1, 3, 1, 4, 4, 3, 4, 2] }
+    { title: "Pizza Reine", subtitle: "Served Family Style", resume: "Vel nam odio dolorem, voluptas sequi minus quo tempore, animi est quia earum maxime. Reiciendisquae repellat, modi non, veniam.", img: "http://img.aujourdhui.com/recipe/pizza-215x320.jpg", ratings: [5, 3, 5, 4, 5, 3, 4, 5] },
+    { title: "Carpaccio de bœuf aux herbes", subtitle: "From the land of Italy", resume: "Vel nam odio dolorem, voluptas sequi minus quo tempore, animi est quia earum maxime. Reiciendisquae repellat, modi non, veniam.", img: "http://img.aujourdhui.com/recipe/carpaccio-215x320.jpg", ratings: [2, 3, 1, 4, 2, 3, 4, 5] },
+    { title: "Fondue aux poireaux ", subtitle: "Seasonal Ingredients", resume: "Vel nam odio dolorem, voluptas sequi minus quo tempore, animi est quia earum maxime. Reiciendisquae repellat, modi non, veniam.", img: "http://img.aujourdhui.com/recipe/fondue-poireaux-hiver_215x320.jpg", ratings: [1, 3, 1, 4, 4, 3, 4, 2] }
 ]);
 
 
